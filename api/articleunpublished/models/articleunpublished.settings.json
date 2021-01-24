@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articleunpublisheds",
+  "info": {
+    "name": "articleunpublished",
+    "description": " Unpublished Articles"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "body": {
+      "type": "richtext"
+    }
+  }
+}
