@@ -7,10 +7,12 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "strapi": "strapi"
+    "strapi": "strapi",
+    "createapi": "node node_modules/inter_strapi/src/first"
   },
   "devDependencies": {},
   "dependencies": {
+    "inter_strapi": "^1.0.4",
     "strapi": "3.4.3",
     "strapi-admin": "3.4.3",
     "strapi-connector-mongoose": "3.4.3",
